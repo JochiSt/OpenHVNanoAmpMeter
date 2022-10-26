@@ -1,0 +1,78 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 0861dd99-8ea6-41f7-a87a-d7284bfa5b07)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 154.94 67.31) (size 73.66 34.29) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 1a416e56-70b9-4536-9e9f-d6906909692e)
+    (property "Sheet name" "CurrentMeasurement" (id 0) (at 154.94 66.5984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "CurrentMeasurement.kicad_sch" (id 1) (at 154.94 102.1846 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+  )
+
+  (sheet (at 22.86 21.59) (size 48.26 13.97) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 58e2bd5c-58d1-4db2-9f48-6c5d4d73d3a1)
+    (property "Sheet name" "InterfacePCside" (id 0) (at 22.86 20.8784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "InterfacePCside.kicad_sch" (id 1) (at 22.86 36.1446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 105.41 64.77) (size 24.13 41.91) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid b07e0764-be04-4bac-9f35-35be415f1b3d)
+    (property "Sheet name" "DataProcessing" (id 0) (at 105.41 64.0584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "DataProcessing.kicad_sch" (id 1) (at 105.41 107.2646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 69.85 66.04) (size 27.94 30.48) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid b1489b53-6bfd-484b-944a-0c1d055adf37)
+    (property "Sheet name" "Interface" (id 0) (at 69.85 65.3284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "Interface.kicad_sch" (id 1) (at 69.85 97.1046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/1a416e56-70b9-4536-9e9f-d6906909692e" (page "2"))
+    (path "/b07e0764-be04-4bac-9f35-35be415f1b3d" (page "3"))
+    (path "/b1489b53-6bfd-484b-944a-0c1d055adf37" (page "4"))
+    (path "/58e2bd5c-58d1-4db2-9f48-6c5d4d73d3a1" (page "5"))
+  )
+
+  (symbol_instances
+    (path "/1a416e56-70b9-4536-9e9f-d6906909692e/7889dd03-e008-429e-85c1-51a59a2503fb"
+      (reference "U?") (unit 1) (value "TLC272") (footprint "")
+    )
+    (path "/1a416e56-70b9-4536-9e9f-d6906909692e/fbe6d585-7b11-4a8d-a098-4cf5a74e9a83"
+      (reference "U?") (unit 2) (value "TLC272") (footprint "")
+    )
+    (path "/1a416e56-70b9-4536-9e9f-d6906909692e/d047c0e9-8f92-47b0-ac3f-1065bf5fbcc0"
+      (reference "U?") (unit 3) (value "TLC272") (footprint "")
+    )
+  )
+)

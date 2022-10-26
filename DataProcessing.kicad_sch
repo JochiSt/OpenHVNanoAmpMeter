@@ -1,0 +1,15 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 7d0dbd28-5ce7-4e45-803e-0d44bcf22f9f)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (text "Digitize data and send to interface part via UART" (at 182.88 171.45 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 2b5398b3-4c0b-4002-9e04-bd97393549e3)
+  )
+)
