@@ -33,3 +33,5 @@ simulations/TLC272.102
 simulations/TLC272.5_1
 simulations/TLC272.5_2
 simulations/tlc272readme.txt
+*.raw
+*.log
