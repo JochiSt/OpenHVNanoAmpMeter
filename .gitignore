@@ -27,3 +27,9 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+simulations/sloj092.zip
+simulations/TLC272.101
+simulations/TLC272.102
+simulations/TLC272.5_1
+simulations/TLC272.5_2
+simulations/tlc272readme.txt
