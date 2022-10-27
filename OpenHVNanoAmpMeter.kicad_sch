@@ -8,15 +8,19 @@
   )
 
 
-  (sheet (at 154.94 67.31) (size 73.66 34.29) (fields_autoplaced)
+  (sheet (at 50.8 50.8) (size 29.21 34.29) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 1a416e56-70b9-4536-9e9f-d6906909692e)
-    (property "Sheet name" "CurrentMeasurement" (id 0) (at 154.94 66.5984 0)
+    (property "Sheet name" "CurrentMeasurement" (id 0) (at 50.8 50.0884 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "CurrentMeasurement.kicad_sch" (id 1) (at 154.94 102.1846 0)
+    (property "Sheet file" "CurrentMeasurement.kicad_sch" (id 1) (at 50.8 85.6746 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (pin "TIA_IN" input (at 50.8 59.69 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid fae89d1d-a289-4cfd-8230-44b824756449)
     )
   )
 
@@ -28,31 +32,31 @@
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Sheet file" "InterfacePCside.kicad_sch" (id 1) (at 22.86 36.1446 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
   )
 
-  (sheet (at 105.41 64.77) (size 24.13 41.91) (fields_autoplaced)
+  (sheet (at 87.63 50.8) (size 24.13 34.29) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid b07e0764-be04-4bac-9f35-35be415f1b3d)
-    (property "Sheet name" "DataProcessing" (id 0) (at 105.41 64.0584 0)
+    (property "Sheet name" "DataProcessing" (id 0) (at 87.63 50.0884 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "DataProcessing.kicad_sch" (id 1) (at 105.41 107.2646 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
+    (property "Sheet file" "DataProcessing.kicad_sch" (id 1) (at 87.63 85.6746 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
   )
 
-  (sheet (at 69.85 66.04) (size 27.94 30.48) (fields_autoplaced)
+  (sheet (at 119.38 50.8) (size 27.94 34.29) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid b1489b53-6bfd-484b-944a-0c1d055adf37)
-    (property "Sheet name" "Interface" (id 0) (at 69.85 65.3284 0)
+    (property "Sheet name" "Interface" (id 0) (at 119.38 50.0884 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "Interface.kicad_sch" (id 1) (at 69.85 97.1046 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
+    (property "Sheet file" "Interface.kicad_sch" (id 1) (at 119.38 85.6746 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
   )
 
@@ -65,11 +69,17 @@
   )
 
   (symbol_instances
+    (path "/1a416e56-70b9-4536-9e9f-d6906909692e/55690313-1407-4934-afe0-4c27694f0ce2"
+      (reference "#PWR?") (unit 1) (value "GND1") (footprint "")
+    )
+    (path "/1a416e56-70b9-4536-9e9f-d6906909692e/2dff8e7c-3323-45f1-b4d6-142a477025b9"
+      (reference "C?") (unit 1) (value "C") (footprint "")
+    )
+    (path "/1a416e56-70b9-4536-9e9f-d6906909692e/7952f13c-ca8e-4d9a-ae66-7db9acc3a740"
+      (reference "R?") (unit 1) (value "R") (footprint "")
+    )
     (path "/1a416e56-70b9-4536-9e9f-d6906909692e/7889dd03-e008-429e-85c1-51a59a2503fb"
       (reference "U?") (unit 1) (value "TLC272") (footprint "")
-    )
-    (path "/1a416e56-70b9-4536-9e9f-d6906909692e/fbe6d585-7b11-4a8d-a098-4cf5a74e9a83"
-      (reference "U?") (unit 2) (value "TLC272") (footprint "")
     )
     (path "/1a416e56-70b9-4536-9e9f-d6906909692e/d047c0e9-8f92-47b0-ac3f-1065bf5fbcc0"
       (reference "U?") (unit 3) (value "TLC272") (footprint "")
