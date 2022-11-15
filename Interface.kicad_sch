@@ -7,4 +7,10 @@
   (lib_symbols
   )
 
+
+  (text "For transmitting the data, a well defined highly isolated interface is needed.\nThe reason for the isolated interface is the fact, that this measurement device\nshould be able to be operated at a high voltage supply. \nFor this the isolation distance of 6kV is assumed. For class B2, this results \nin 30mm, which is also assumed to be on the very safe side for using on this \nPCB."
+    (at 179.07 161.29 0)
+    (effects (font (size 1.6 1.6)) (justify left bottom))
+    (uuid daaf681d-94c4-45f6-84e8-6ecf8e82fe4a)
+  )
 )
