@@ -13,4 +13,13 @@
     (effects (font (size 1.6 1.6)) (justify left bottom))
     (uuid daaf681d-94c4-45f6-84e8-6ecf8e82fe4a)
   )
+
+  (hierarchical_label "TX" (shape input) (at 50.8 38.1 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 9f95d858-a8b0-429f-b163-23419c83fd40)
+  )
+  (hierarchical_label "RX" (shape output) (at 50.8 50.8 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid ab572f28-bb97-415a-9ffa-2d51b31ef9c6)
+  )
 )
