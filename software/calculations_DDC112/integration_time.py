@@ -47,6 +47,7 @@ def color_calc(cf):
     return -np.log(cf/np.max(CF))/3
 
 T_INT_array = T_INT_array * 1e6     # using us
+I_FS_array = I_FS_array * 1e6     # using uA
 I_FS_array = I_FS_array.reshape(int(I_FS_array.size/CF.size), CF.size)
 
 fig, ax = plt.subplots()
