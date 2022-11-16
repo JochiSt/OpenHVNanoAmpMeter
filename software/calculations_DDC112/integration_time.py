@@ -61,8 +61,6 @@ for index, x in np.ndenumerate(T_INT_array):
                                    c=cm.viridis( color_calc(CF[index_CF])  ) )
         graph_array.append(graph)
 
-ax.legend(handles=graph_array)
-
 ax.set_xscale('log')
 ax.set_yscale('log')
 
@@ -122,6 +120,8 @@ ax3.get_yaxis().set_tick_params(which='minor', size=0)
 ax3.get_yaxis().set_tick_params(which='minor', width=0)
 
 ###############################################################################
+
+ax3.legend(handles=graph_array, loc="upper right")
 
 plt.savefig("IFS_vs_Tint_vs_CF.png")
 plt.show()
