@@ -65,7 +65,7 @@ ax.legend(handles=graph_array)
 ax.set_xscale('log')
 ax.set_yscale('log')
 
-ax.set_ylabel(r'full scale input current (\mu A)')
-ax.set_xlabel(r'integration time (\mu s)')
+ax.set_ylabel(r'full scale input current (\textmu A)')
+ax.set_xlabel(r'integration time (\textmu s)')
 
 plt.show()
