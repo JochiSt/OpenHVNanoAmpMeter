@@ -118,6 +118,9 @@ ax3.get_yaxis().set_tick_params(which='minor', width=0)
 
 ###############################################################################
 
+plt.axhline(1   , color="black", linestyle='-', linewidth=1)
+plt.axhline(1e-3, color="black", linestyle='-', linewidth=1)
+
 ax3.legend(handles=graph_array, loc="upper right")
 
 plt.savefig("IFS_vs_Tint_vs_CF.png")
