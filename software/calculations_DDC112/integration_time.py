@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-from matplotlib import cm
+from matplotlib import cm, ticker
 import numpy as np
 
 plt.rcParams['text.usetex'] = True
@@ -68,5 +68,23 @@ ax.set_yscale('log')
 
 ax.set_ylabel(r'full scale input current (\textmu A)')
 ax.set_xlabel(r'integration time (\textmu s)')
+
+###############################################################################
+ax2 = ax.twiny()
+ax2.set_xscale('log')
+new_tick_locations = T_INT_array
+
+def tick_function(X):
+    V = divider_array
+    return ["%d" % np.log2(z) for z in V]
+
+ax2.set_xlim(ax.get_xlim())
+ax2.set_xticks(new_tick_locations)
+ax2.set_xticklabels(tick_function(new_tick_locations), rotation=90, ha='center')
+ax2.set_xlabel(r"10MHz divider setting $2^n$")
+
+#ax2.get_xaxis().set_major_formatter(ticker.ScalarFormatter())
+ax2.get_xaxis().set_tick_params(which='minor', size=0)
+ax2.get_xaxis().set_tick_params(which='minor', width=0)
 
 plt.show()
