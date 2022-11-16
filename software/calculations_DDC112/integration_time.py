@@ -108,9 +108,6 @@ def tick_functionY(X):
 
     return label
 
-print(new_tick_locations)
-print(tick_functionY(new_tick_locations))
-
 ax3.set_ylim(ax.get_ylim())
 ax3.set_yticks(new_tick_locations)
 ax3.set_yticklabels(tick_functionY(new_tick_locations))#, rotation=90, ha='center')
