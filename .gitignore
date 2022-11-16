@@ -27,6 +27,8 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+# ignore LTspice simulations
 simulations/sloj092.zip
 simulations/TLC272.101
 simulations/TLC272.102
@@ -35,6 +37,8 @@ simulations/TLC272.5_2
 simulations/tlc272readme.txt
 *.raw
 *.log
+
+# ignore KiCAD autosave
 \#auto_saved_files\#
 
 # ignore Spyder project folder
