@@ -5,6 +5,58 @@
   (paper "A4")
 
   (lib_symbols
+    (symbol "power:+5VD" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "+5VD" (id 1) (at 0 3.556 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (id 2) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (id 3) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "power-flag" (id 4) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"+5VD\"" (id 5) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "+5VD_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+      )
+      (symbol "+5VD_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "+5VD" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
   )
 
 
@@ -21,5 +73,21 @@
   (hierarchical_label "RX" (shape output) (at 50.8 50.8 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid ab572f28-bb97-415a-9ffa-2d51b31ef9c6)
+  )
+
+  (symbol (lib_id "power:+5VD") (at 134.62 67.31 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid 791bbbf6-f075-4b16-a82f-47bd0f933926)
+    (property "Reference" "#PWR?" (id 0) (at 134.62 71.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5VD" (id 1) (at 134.62 62.23 0))
+    (property "Footprint" "" (id 2) (at 134.62 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 134.62 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 7dbc9e5b-20f3-412b-b43f-73e85b25679e))
   )
 )
