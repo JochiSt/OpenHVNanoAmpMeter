@@ -87,4 +87,41 @@ ax2.set_xlabel(r"10MHz divider setting $2^n$")
 ax2.get_xaxis().set_tick_params(which='minor', size=0)
 ax2.get_xaxis().set_tick_params(which='minor', width=0)
 
+###############################################################################
+
+ax3 = ax.twinx()
+ax3.set_yscale('log')
+new_tick_locations = np.logspace(-4, 0, 5)
+
+def tick_functionY(X):
+    V = X/(np.power(2,20)-1)*1e9
+    label = []
+    for z in V:
+        if z > 100:
+            label.append("%.1f" % z)
+        elif z > 10:
+            label.append("%.2f" % z)
+        elif z > 1:
+            label.append("%.3f" % z)
+        elif z > 0.1:
+            label.append("%.3f" % z)
+        elif z > 0.01:
+            label.append("%.4f" % z)
+
+    return label
+
+print(new_tick_locations)
+print(tick_functionY(new_tick_locations))
+
+ax3.set_ylim(ax.get_ylim())
+ax3.set_yticks(new_tick_locations)
+ax3.set_yticklabels(tick_functionY(new_tick_locations))#, rotation=90, ha='center')
+ax3.set_ylabel(r"LSB current resolution fA")
+
+ax3.get_yaxis().set_tick_params(which='minor', size=0)
+ax3.get_yaxis().set_tick_params(which='minor', width=0)
+
+###############################################################################
+
+plt.savefig("IFS_vs_Tint_vs_CF.png")
 plt.show()
