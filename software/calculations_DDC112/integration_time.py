@@ -57,7 +57,7 @@ for index, x in np.ndenumerate(T_INT_array):
     graph_array = []
     for index_CF, y in np.ndenumerate(I_FS_array[index]):
         graph, = ax.plot(x, y, marker='.',
-                                   label="%.1f pF"%(CF[index_CF]),
+                                   label="%5.1f pF"%(CF[index_CF]),
                                    c=cm.viridis( color_calc(CF[index_CF])  ) )
         graph_array.append(graph)
 
