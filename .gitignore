@@ -36,3 +36,6 @@ simulations/tlc272readme.txt
 *.raw
 *.log
 \#auto_saved_files\#
+
+# ignore Spyder project folder
+.spyproject
