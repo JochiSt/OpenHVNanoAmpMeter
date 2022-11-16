@@ -35,8 +35,8 @@ for divider in bits_cnt:
             T_INT_divider = np.append(T_INT_divider, T_INT)
             divider_divider = np.append(divider_divider, division)
             for C in CF:
+                C = C*1e-12
                 I_FS = 0.96 * VREF * C / T_INT
-
                 I_FS_divider = np.append(I_FS_divider, I_FS)
 
     I_FS_array = np.append(I_FS_array, I_FS_divider)
