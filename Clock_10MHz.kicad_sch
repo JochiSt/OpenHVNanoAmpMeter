@@ -1,6 +1,6 @@
 (kicad_sch (version 20211123) (generator eeschema)
 
-  (uuid 7b06c9d0-689d-473f-bcb4-4f2e63648248)
+  (uuid 1264c523-4be0-4b81-8b79-3be10867b52a)
 
   (paper "A4")
 
@@ -972,7 +972,7 @@
   (symbol (lib_id "power:+5VD") (at 66.04 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid c455335c-afef-4503-a906-d22b0f0b3423)
-    (property "Reference" "#PWR?" (id 0) (at 66.04 68.58 0)
+    (property "Reference" "#PWR0114" (id 0) (at 66.04 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5VD" (id 1) (at 66.04 59.69 0))
@@ -1040,7 +1040,7 @@
   (symbol (lib_id "power:+5VD") (at 36.83 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid ea21605d-7c97-4e6f-b5b0-6972c6eeed34)
-    (property "Reference" "#PWR?" (id 0) (at 36.83 83.82 0)
+    (property "Reference" "#PWR0112" (id 0) (at 36.83 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5VD" (id 1) (at 36.83 74.93 0))
@@ -1072,7 +1072,7 @@
   (symbol (lib_id "power:+5VD") (at 165.1 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid f2d05fc5-a428-43f5-aac7-5c17571dd6f4)
-    (property "Reference" "#PWR?" (id 0) (at 165.1 67.31 0)
+    (property "Reference" "#PWR0115" (id 0) (at 165.1 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5VD" (id 1) (at 165.1 58.42 0))
@@ -1088,7 +1088,7 @@
   (symbol (lib_id "power:+5VD") (at 99.06 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid f648e27e-1136-44b4-b892-c1e5a7d4fa8b)
-    (property "Reference" "#PWR?" (id 0) (at 99.06 68.58 0)
+    (property "Reference" "#PWR0113" (id 0) (at 99.06 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5VD" (id 1) (at 99.06 59.69 0))

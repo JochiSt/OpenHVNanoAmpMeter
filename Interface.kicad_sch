@@ -78,7 +78,7 @@
   (symbol (lib_id "power:+5VD") (at 134.62 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 791bbbf6-f075-4b16-a82f-47bd0f933926)
-    (property "Reference" "#PWR?" (id 0) (at 134.62 71.12 0)
+    (property "Reference" "#PWR0111" (id 0) (at 134.62 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5VD" (id 1) (at 134.62 62.23 0))
