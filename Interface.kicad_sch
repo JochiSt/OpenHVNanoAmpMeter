@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Open Nano Amp Meter")
+    (date "2022-11-17")
+    (rev "0.9")
+  )
+
   (lib_symbols
     (symbol "power:+5VD" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)

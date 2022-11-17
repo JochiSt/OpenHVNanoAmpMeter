@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Open Nano Amp Meter")
+    (date "2022-11-17")
+    (rev "0.9")
+  )
+
   (lib_symbols
     (symbol "DDC112:DDC112U" (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at 10.16 -6.35 0)

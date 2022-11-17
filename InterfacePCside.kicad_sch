@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Open Nano Amp Meter")
+    (date "2022-11-17")
+    (rev "0.9")
+  )
+
   (lib_symbols
   )
 
