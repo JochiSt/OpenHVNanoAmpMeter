@@ -92,7 +92,9 @@ ax3.set_yscale('log')
 new_tick_locations = np.logspace(-4, 0, 5)
 
 def tick_functionY(X):
-    V = X/(np.power(2,20)-1)*1e9 # from uA to fA
+    bits_ZERO = 4096
+    bits_FS   = np.power(2,20)-1 - bits_ZERO
+    V = X/(bits_FS)*1e9 # from uA to fA
     label = []
     for z in V:
         if z > 100:
