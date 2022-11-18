@@ -113,7 +113,7 @@ def tick_functionY(X):
 ax3.set_ylim(ax.get_ylim())
 ax3.set_yticks(new_tick_locations)
 ax3.set_yticklabels(tick_functionY(new_tick_locations))#, rotation=90, ha='center')
-ax3.set_ylabel(r"20-bit LSB size (fA)")
+ax3.set_ylabel(r"LSB size (fA)")
 
 ax3.get_yaxis().set_tick_params(which='minor', size=0)
 ax3.get_yaxis().set_tick_params(which='minor', width=0)
