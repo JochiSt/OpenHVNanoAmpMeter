@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name "DDC112")(type "KiCad")(uri "${KIPRJMOD}/DDC112.kicad_sym")(options "")(descr ""))
+  (lib (name "TO_X147PL")(type "KiCad")(uri "${KIPRJMOD}/TO_X147PL.kicad_sym")(options "")(descr ""))
 )
