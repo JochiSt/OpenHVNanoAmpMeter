@@ -1,0 +1,25 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid afa7e5af-2ec5-40f4-ad27-248f67a54a26)
+
+  (paper "A4")
+
+  (title_block
+    (title "Open Nano Amp Meter")
+    (date "2022-11-17")
+    (rev "0.9")
+  )
+
+  (lib_symbols
+  )
+
+
+  (text "Battery Power Supply" (at 34.29 35.56 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 5d646b5d-3d6a-4b59-aec8-cc85cec09e41)
+  )
+  (text "Low noise, and isolated." (at 53.34 38.1 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 6279a7d5-e5a8-4f03-bcd4-cd41eb6664c3)
+  )
+)
