@@ -799,6 +799,12 @@
     (path "/d7b74773-6757-4dce-9b74-0ca53265265a/4e9d37ad-9571-497f-b810-3e5dac8d924f"
       (reference "#PWR052") (unit 1) (value "GND") (footprint "")
     )
+    (path "/b3994d03-1451-4572-ab54-6e10fd7ce052/e89581f8-f82f-4c7c-9515-8c644672a5ae"
+      (reference "#PWR053") (unit 1) (value "+5VD") (footprint "")
+    )
+    (path "/b3994d03-1451-4572-ab54-6e10fd7ce052/fe8e2ac1-8748-4d48-97a5-a41f5527e3ab"
+      (reference "#PWR054") (unit 1) (value "GND") (footprint "")
+    )
     (path "/1a416e56-70b9-4536-9e9f-d6906909692e/c05f9092-0414-4fb2-84f5-deb77d878292"
       (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
     )
@@ -955,6 +961,9 @@
     (path "/d7b74773-6757-4dce-9b74-0ca53265265a/f58929f6-00eb-4476-a024-b350ab1d0761"
       (reference "C27") (unit 1) (value "10u") (footprint "Capacitor_SMD:CP_Elec_4x3.9")
     )
+    (path "/b3994d03-1451-4572-ab54-6e10fd7ce052/30d197a4-d70a-4524-9bc2-9661198aeead"
+      (reference "C28") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
     (path "/b07e0764-be04-4bac-9f35-35be415f1b3d/11ff2be8-d043-460e-99d2-e36b57af7642"
       (reference "D1") (unit 1) (value "LED") (footprint "LED_SMD:LED_0603_1608Metric")
     )
@@ -1090,8 +1099,8 @@
     (path "/d7b74773-6757-4dce-9b74-0ca53265265a/de8ce286-9d92-4834-aa5c-ec1c4a0e1a4a"
       (reference "U11") (unit 1) (value "NCP1117-5.0_SOT223") (footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2")
     )
-    (path "/b3994d03-1451-4572-ab54-6e10fd7ce052/b0458ad2-451c-4326-b26b-68a2907609b4"
-      (reference "X1") (unit 1) (value "ASCO") (footprint "Oscillator:Oscillator_SMD_Abracon_ASCO-4Pin_1.6x1.2mm")
+    (path "/b3994d03-1451-4572-ab54-6e10fd7ce052/83b3cf0f-99c3-41a1-a2df-2db727da1e6e"
+      (reference "X1") (unit 1) (value "CXO_DIP14") (footprint "Oscillator:Oscillator_DIP-14")
     )
   )
 )
