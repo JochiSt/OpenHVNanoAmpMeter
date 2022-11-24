@@ -805,6 +805,30 @@
     (path "/b3994d03-1451-4572-ab54-6e10fd7ce052/fe8e2ac1-8748-4d48-97a5-a41f5527e3ab"
       (reference "#PWR054") (unit 1) (value "GND") (footprint "")
     )
+    (path "/1a416e56-70b9-4536-9e9f-d6906909692e/369ad7dc-172d-471e-9dca-63a8ac207fef"
+      (reference "#PWR055") (unit 1) (value "+5VA") (footprint "")
+    )
+    (path "/1a416e56-70b9-4536-9e9f-d6906909692e/d42afabb-7364-4429-a23b-3c957533039f"
+      (reference "#PWR056") (unit 1) (value "GNDA") (footprint "")
+    )
+    (path "/1a416e56-70b9-4536-9e9f-d6906909692e/ecd761dd-7d66-4deb-b941-fb75de7043bc"
+      (reference "#PWR057") (unit 1) (value "GNDA") (footprint "")
+    )
+    (path "/1a416e56-70b9-4536-9e9f-d6906909692e/d446827d-1a42-46c2-a018-45dc32d35f7d"
+      (reference "#PWR058") (unit 1) (value "GNDA") (footprint "")
+    )
+    (path "/1a416e56-70b9-4536-9e9f-d6906909692e/408b0fef-ee9e-43c1-9a02-f6327d73d25d"
+      (reference "#PWR059") (unit 1) (value "+5VA") (footprint "")
+    )
+    (path "/1a416e56-70b9-4536-9e9f-d6906909692e/4cc0bd5e-b853-4227-9e55-ca6d4fe22dc1"
+      (reference "#PWR060") (unit 1) (value "GNDA") (footprint "")
+    )
+    (path "/b3994d03-1451-4572-ab54-6e10fd7ce052/bbdbe785-a158-4280-9375-648e4c442ccb"
+      (reference "#PWR061") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/b3994d03-1451-4572-ab54-6e10fd7ce052/a94ebdab-2d81-4191-86d2-756c0a892e4c"
+      (reference "#PWR062") (unit 1) (value "GND") (footprint "")
+    )
     (path "/1a416e56-70b9-4536-9e9f-d6906909692e/c05f9092-0414-4fb2-84f5-deb77d878292"
       (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
     )
@@ -879,12 +903,6 @@
     )
     (path "/d7b74773-6757-4dce-9b74-0ca53265265a/90df0229-cbb5-45ff-8c26-e75e05cf1ceb"
       (reference "#PWR0125") (unit 1) (value "+3V3") (footprint "")
-    )
-    (path "/b3994d03-1451-4572-ab54-6e10fd7ce052/a94ebdab-2d81-4191-86d2-756c0a892e4c"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/b3994d03-1451-4572-ab54-6e10fd7ce052/bbdbe785-a158-4280-9375-648e4c442ccb"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/1a416e56-70b9-4536-9e9f-d6906909692e/fde68567-8c9c-41e9-b188-08fc9d33e579"
       (reference "C1") (unit 1) (value "100p") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
@@ -969,6 +987,15 @@
     )
     (path "/b3994d03-1451-4572-ab54-6e10fd7ce052/30d197a4-d70a-4524-9bc2-9661198aeead"
       (reference "C28") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/1a416e56-70b9-4536-9e9f-d6906909692e/824976dc-913d-46bc-8f8e-beb938100c6f"
+      (reference "C29") (unit 1) (value "10u") (footprint "Capacitor_SMD:CP_Elec_4x3.9")
+    )
+    (path "/1a416e56-70b9-4536-9e9f-d6906909692e/356226fb-f531-41c6-a165-33ac0068fb0a"
+      (reference "C30") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/1a416e56-70b9-4536-9e9f-d6906909692e/c676beb1-7ef7-41c4-aa0e-ef91a97aea87"
+      (reference "C31") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/b07e0764-be04-4bac-9f35-35be415f1b3d/11ff2be8-d043-460e-99d2-e36b57af7642"
       (reference "D1") (unit 1) (value "LED") (footprint "LED_SMD:LED_0603_1608Metric")
@@ -1063,6 +1090,9 @@
     (path "/d7b74773-6757-4dce-9b74-0ca53265265a/ec702428-7417-4a9c-92e9-6da3d4fcee68"
       (reference "R23") (unit 1) (value "R") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
+    (path "/1a416e56-70b9-4536-9e9f-d6906909692e/23247ad5-9225-4717-aa74-cc583f62332f"
+      (reference "R24") (unit 1) (value "R") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
     (path "/1a416e56-70b9-4536-9e9f-d6906909692e/8545a50e-7da1-4f47-95c3-a84b8f7a0500"
       (reference "U1") (unit 1) (value "DDC112U") (footprint "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm")
     )
@@ -1110,6 +1140,9 @@
     )
     (path "/b3994d03-1451-4572-ab54-6e10fd7ce052/c17dfeb0-fd0d-4d64-b7a4-aa6248d2b903"
       (reference "U13") (unit 1) (value "SN74LVC1G17DBVR") (footprint "digikey-footprints:SOT-753")
+    )
+    (path "/1a416e56-70b9-4536-9e9f-d6906909692e/d0fcc269-5a94-4bb9-8a14-3c08151f3c0a"
+      (reference "U14") (unit 1) (value "OPA340UA") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/b3994d03-1451-4572-ab54-6e10fd7ce052/83b3cf0f-99c3-41a1-a2df-2db727da1e6e"
       (reference "X1") (unit 1) (value "CXO_DIP14") (footprint "Oscillator:Oscillator_DIP-14")
