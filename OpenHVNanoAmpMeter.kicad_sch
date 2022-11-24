@@ -880,6 +880,12 @@
     (path "/d7b74773-6757-4dce-9b74-0ca53265265a/90df0229-cbb5-45ff-8c26-e75e05cf1ceb"
       (reference "#PWR0125") (unit 1) (value "+3V3") (footprint "")
     )
+    (path "/b3994d03-1451-4572-ab54-6e10fd7ce052/a94ebdab-2d81-4191-86d2-756c0a892e4c"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/b3994d03-1451-4572-ab54-6e10fd7ce052/bbdbe785-a158-4280-9375-648e4c442ccb"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/1a416e56-70b9-4536-9e9f-d6906909692e/fde68567-8c9c-41e9-b188-08fc9d33e579"
       (reference "C1") (unit 1) (value "100p") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
     )
@@ -1098,6 +1104,12 @@
     )
     (path "/d7b74773-6757-4dce-9b74-0ca53265265a/de8ce286-9d92-4834-aa5c-ec1c4a0e1a4a"
       (reference "U11") (unit 1) (value "NCP1117-5.0_SOT223") (footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2")
+    )
+    (path "/b3994d03-1451-4572-ab54-6e10fd7ce052/3c77520e-dd5b-457e-a22f-9c9cb7995515"
+      (reference "U12") (unit 1) (value "SN74LVC1G17DBVR") (footprint "digikey-footprints:SOT-753")
+    )
+    (path "/b3994d03-1451-4572-ab54-6e10fd7ce052/c17dfeb0-fd0d-4d64-b7a4-aa6248d2b903"
+      (reference "U13") (unit 1) (value "SN74LVC1G17DBVR") (footprint "digikey-footprints:SOT-753")
     )
     (path "/b3994d03-1451-4572-ab54-6e10fd7ce052/83b3cf0f-99c3-41a1-a2df-2db727da1e6e"
       (reference "X1") (unit 1) (value "CXO_DIP14") (footprint "Oscillator:Oscillator_DIP-14")
